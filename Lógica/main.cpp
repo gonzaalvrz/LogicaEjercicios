@@ -108,6 +108,6 @@ int main() {
     //cout << "Division: " << Division(10, 2) << endl;
     //cout << "Potencia: " << Potencia(8, 2) << endl;
     //numerosPerfecto(10);
-    //numeroGuay(8);
+    //numeroGuay(6);
     return 0;
 }
