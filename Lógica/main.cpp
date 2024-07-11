@@ -1,5 +1,7 @@
 #include <iostream>
 #include <cmath>
+#include <cstdlib>
+#include <ctime>
 using namespace std;
 
 
@@ -98,6 +100,17 @@ int numeroGuay(int a) {
 }
 */
 
+// PRIMER EJERCICIO DE KATA
+
+
+/*
+int Edad() {
+    srand( time(0));
+    int min = 0, max = 9; 
+    int num = rand() % (max - min) + min; 
+    return num;
+}
+*/
 
 
 int main() {
@@ -109,5 +122,6 @@ int main() {
     //cout << "Potencia: " << Potencia(8, 2) << endl;
     //numerosPerfecto(10);
     //numeroGuay(6);
+    //cout << "Cuantos anos tienes? " << Edad() << " anos" << endl;
     return 0;
 }
